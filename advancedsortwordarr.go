@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package student
 
 func Compare(a, b string) int {
 	if a > b {
@@ -21,12 +19,4 @@ func AdvancedSortWordArr(array []string, f func(a, b string) int) {
 			}
 		}
 	}
-}
-
-func main() {
-
-	result := []string{"a", "A", "1", "b", "B", "2", "c", "C", "3"}
-	AdvancedSortWordArr(result, Compare)
-
-	fmt.Println(result)
 }

@@ -1,6 +1,6 @@
-package main
+package student
 
-import "github.com/01-edu/z01.PrintRune"
+import "github.com/01-edu/z01"
 
 func PrintCombN(n int) {
 	if n > 0 && n < 10 {

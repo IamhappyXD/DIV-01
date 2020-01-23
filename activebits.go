@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package student
 
 func ActiveBits(n int) uint {
 	var bits uint
@@ -12,9 +10,4 @@ func ActiveBits(n int) uint {
 		n = n / 2
 	}
 	return bits
-}
-
-func main() {
-	nbits := ActiveBits(1)
-	fmt.Println(nbits)
 }
